@@ -22,8 +22,7 @@
           },
           {
             "result": {
-              "duration": 2519533,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "I should see the title \"Test Design Considerations — Selenium Documentation\"",

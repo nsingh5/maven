@@ -33,15 +33,16 @@ formatter.match({
   "location": "SeleniumAdvancedDocumentationStepDefs.that_seleniumhq_org_is_available()"
 });
 formatter.result({
-  "duration": 3727285790,
+  "duration": 4963074096,
   "status": "passed"
 });
 formatter.match({
   "location": "SeleniumAdvancedDocumentationStepDefs.I_read_the_documentation_about_page_objects()"
 });
 formatter.result({
-  "duration": 2172522182,
-  "status": "passed"
+  "duration": 265528,
+  "error_message": "java.lang.Error: Unresolved compilation problem: \n\tactualPageTitle cannot be resolved to a variable\n\r\n\tat com.packtpub.mastering.selenium.steps.SeleniumAdvancedDocumentationStepDefs.I_read_the_documentation_about_page_objects(SeleniumAdvancedDocumentationStepDefs.java:61)\r\n\tat ✽.When I read the documentation about page objects(com\\packtpub\\mastering\\selenium\\AdvancedDocumentation.feature:8)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -53,7 +54,6 @@ formatter.match({
   "location": "SeleniumAdvancedDocumentationStepDefs.I_should_see_the_title(String)"
 });
 formatter.result({
-  "duration": 2384784,
-  "status": "passed"
+  "status": "skipped"
 });
 });

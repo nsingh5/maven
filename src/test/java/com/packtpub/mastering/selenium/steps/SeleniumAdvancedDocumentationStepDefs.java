@@ -26,7 +26,7 @@ public class SeleniumAdvancedDocumentationStepDefs {
     SeleniumHQ seleniumHQPage;
     Documentation documentationPage;
     PageObjectDesignPattern pageObjectDesignPatternPage;
-    
+    String actualPageTitle;
 
     @Before
     public void setUp() {

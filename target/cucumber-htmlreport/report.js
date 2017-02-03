@@ -33,14 +33,14 @@ formatter.match({
   "location": "SeleniumAdvancedDocumentationStepDefs.that_seleniumhq_org_is_available()"
 });
 formatter.result({
-  "duration": 4399693085,
+  "duration": 3860206926,
   "status": "passed"
 });
 formatter.match({
   "location": "SeleniumAdvancedDocumentationStepDefs.I_read_the_documentation_about_page_objects()"
 });
 formatter.result({
-  "duration": 3931868507,
+  "duration": 2445028142,
   "status": "passed"
 });
 formatter.match({
@@ -53,7 +53,7 @@ formatter.match({
   "location": "SeleniumAdvancedDocumentationStepDefs.I_should_see_the_title(String)"
 });
 formatter.result({
-  "duration": 2307326,
+  "duration": 2490730,
   "status": "passed"
 });
 });

@@ -21,9 +21,9 @@ pipeline {
                 script {
                     def mvnHome = tool 'Maven 3.3'
                     if (isUnix()) {
-                        sh "'${mvnHome}/bin/mvn'  test"
+                        sh "'${mvnHome}/bin/mvn'  compile"
                     } else {
-                        bat(/"${mvnHome}\bin\mvn" test/)
+                        bat(/"${mvnHome}\bin\mvn" compile/)
                     }
 
                 }

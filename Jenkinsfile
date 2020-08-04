@@ -7,10 +7,10 @@ pipeline {
                     echo 'Pulling...' + env.BRANCH_NAME
                     def mvnHome = tool 'Maven 3.3'
                     if (isUnix()) {
-                        sh "'${mvnHome}/bin/mvn' -Dmaven.test.skip=true clean compile"
+                        sh "'${mvnHome}/bin/mvn' -Dmaven.test.skip=true clean "
 
                     } else {
-                        bat(/"${mvnHome}\bin\mvn" compile/)
+                        bat(/"${mvnHome}\bin\mvn" clean/)
                     }
                 }
             }
@@ -21,9 +21,9 @@ pipeline {
                 script {
                     def mvnHome = tool 'Maven 3.3'
                     if (isUnix()) {
-                        sh "'${mvnHome}/bin/mvn'  compile"
+                        sh "'${mvnHome}/bin/mvn'  clean"
                     } else {
-                        bat(/"${mvnHome}\bin\mvn" compile/)
+                        bat(/"${mvnHome}\bin\mvn" clean/)
                     }
 
                 }
